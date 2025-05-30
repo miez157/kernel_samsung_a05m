@@ -15,7 +15,7 @@ else
 fi
 
 # === Export Paths ===
-echo "[+] Setting up environment variables..."
+echo "[+] Setting up environment variables..... :)"
 CLANG_PATH=$(pwd)/$CLANG_DIR/bin
 export PATH=$CLANG_PATH:$PATH
 export CROSS_COMPILE=${CLANG_PATH}/aarch64-linux-gnu-
